@@ -1,0 +1,165 @@
+.prototype_body_1{
+  .ToneSynth{
+    width: 27.083vw;
+    height: 50vw;
+    border-radius: 1.389vw;
+  }
+  .one, .two, .three{
+    width: 555px;
+    margin-bottom: 2vw;
+    .noise, .bass, .melody{
+      width: 101.97px;
+      height: 78.44px;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: 0px 6.27508px 21.9628px rgba(0, 0, 0, 0.25);
+      border-radius: 15.6877px;
+      display: flex;
+      justify-content: center;
+      .SC_Button{
+        font-family: 'Neue Haas Unica';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 47.52px;
+        line-height: 48px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: -2vw;
+      }
+    }
+    h1{
+      font-family: 'Neue Haas Unica';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 95.04px;
+      line-height: 95px;
+
+      color: rgba(255, 255, 255, 0.5);
+      text-decoration: 0px 6.289412021636963px 6.289412021636963px 0px rgba(0, 0, 0, 0.25) inset;
+      margin: 20px;
+    }
+  }
+  .one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: {
+      image: asset_url("2.png");
+    }
+    background-size: 120%;
+    background-position: center;
+    position: absolute;
+    left: 2.5vw;
+    top: 2.5vw;
+    padding: .9vw;
+  }
+  .two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: {
+      image: asset_url("2.png");
+    }
+    background-size: 120%;
+    background-position: center;
+    position: absolute;
+    top: 2.5vw;
+    right: 2.5vw;
+    padding: .9vw;
+  }
+  .three{
+    background: {
+      image: asset_url("2.png");
+    }
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 2.4vw;
+    left: 34.6vw;
+    padding: 1vw;
+    // .ToneSynth{
+    //   margin-top: -.8vw;
+    //   margin-left: -1.8vw;
+    //   height: auto;
+    //   .SC_Slider{
+    //     padding-top: 1.111vw;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     width: 450.45px;
+    //     height: 102.96px;
+    //     left: 1356.47px;
+    //     top: 192.47px;
+    //
+    //     background: rgba(255, 255, 255, 0.5);
+    //     box-shadow: 0px 3.96px 13.86px rgba(0, 0, 0, 0.25);
+    //     border-radius: 9.9px;
+    //     h3{
+    //       font-family: 'Neue Haas Unica';
+    //       font-style: normal;
+    //       font-weight: 500;
+    //       font-size: 27.72px;
+    //       line-height: 28px;
+    //       /* identical to box height */
+    //
+    //
+    //       color: rgba(255, 255, 255, 0.5);
+    //     }
+    //     .slider_path{
+    //       display: flex;
+    //       justify-content: center;
+    //
+    //       input[type=range]{
+    //         width: 20vw;
+    //         -webkit-appearance: none;
+    //         background: transparent;
+    //
+    //       }
+    //       input[type=range]::-webkit-slider-runnable-track {
+    //         cursor: pointer;
+    //         width: 370.26px;
+    //         height: 11.88px;
+    //         /* . */
+    //
+    //         background: linear-gradient(90deg, #FFFFFF 45.74%, rgba(255, 255, 255, 0) 98.53%);
+    //         filter: drop-shadow(3.96px 3.96px 3.96px rgba(0, 0, 0, 0.25));
+    //         border-radius: 9.9px;
+    //       }
+    //       input[type=range]::-webkit-slider-thumb {
+    //         -webkit-appearance: none;
+    //         background: #FFFFFF;
+    //         box-shadow: 3.96px 3.96px 3.96px rgba(0, 0, 0, 0.25);
+    //         height: 1.944vw;
+    //         width: 1.944vw;
+    //         border-radius: 50%;
+    //         cursor: pointer;
+    //         margin-top: -0.472vw; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+    //       }
+    //     }
+    //   }
+    //   .SC_ToggleButtonSet{
+    //     padding-top: 1.9vw;
+    //     .buttons{
+    //       width: 23vw;
+    //       .SC_ToggleButton{
+    //         width: 148.5px;
+    //         height: 49.5px;
+    //       }
+    //
+    //     }
+    //   }
+    // }
+
+  }
+  .one, .two, .three {
+    .knobs{
+      position: absolute;
+      top: 46vw;
+      margin-left: 1.111vw;
+      width: 24.722vw;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
