@@ -10,5 +10,3 @@ rails db:seed
 rails s
 ```
 
-Then open http://localhost:3000
-# metalove
